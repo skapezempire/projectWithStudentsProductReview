@@ -1,0 +1,157 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: rgb(255,120,79);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container{
+
+    background-color: azure;
+    width: 800px;
+    height:550px;
+    border-radius: 10px;
+    display:flex;
+}
+
+img{
+
+    height:550px;
+    width:50%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#btn{
+    background-color: rgb(255, 85,33);
+    border:none;
+    width:350px;
+    height:50px;
+    color: white;
+    box-shadow: 1px 3px 5px rgb(189, 62, 24);
+    border-radius: 5px;
+    margin:30px 0;
+    font-weight: bold;
+    font-size: medium;
+
+}
+
+.right_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.money{
+    display: flex;
+    column-gap: 60px;
+    align-items: center;
+}
+
+
+#new_price{
+
+    color: rgb(255,120,79);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#old_price{
+
+    color: #aaa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    
+}
+
+
+#title{
+
+    color:rgb(255,120,79);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-transform:Uppercase ;
+}
+
+h4{
+margin: 0 40px 30px 20px;
+text-align: justify;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+line-height: 1;
+color:rgb(85, 85, 85);
+
+}
+
+#sub_info{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(59, 59, 59);
+    margin:20px
+
+
+}
+
+
+.icon_btn{
+
+    display:inline-flex;
+    height: 50px;
+    width: 200px;
+    border: none;
+    outline: none;
+    padding:0;
+    background-color: rgb(41, 168, 64);
+    border-radius: 5px;
+    overflow: hidden;
+    justify-content: end;
+    cursor: pointer;
+    /* font-weight: 500; */
+    font-size: 16px;
+    box-shadow: 1px 3px 5px  rgb(31, 125, 48);
+
+
+}
+
+
+.icon_btn:hover{
+    background-color: rgb(53, 201, 80);
+}
+
+.icon_btn:active{
+
+background-color: rgb(41, 169, 64);
+}
+
+.btn_text{
+    padding-right: 60px;
+}
+
+.btn_icon{
+
+    font-size: 30px;
+    /* background-color: rgba(0,0,0,0.08); */
+    width: 60px;
+    height: 50px;
+}
+
+.btn_text, .btn_icon{
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+    color: aliceblue;
+}
+
+
+
+
